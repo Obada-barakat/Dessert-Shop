@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="an e-commerce page">
+    <title>Frontend Mentor | Product list with cart</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="details">
+            <h1>Desserts</h1>
+            <div class="products-container">
+            </div>
+        </section>
+        <nav class="cart">
+            <h2>Your Cart (0)</h2>
+            <div id="illustrate-empty-cart"  class="empty-cart">
+                <img src="/assets/images/illustration-empty-cart.svg" alt="empty cart" class="image">
+                <p class="para">Your added items will appear here</p>
+            </div>
+                <div id="illustrate-choosen-item" class="order-details">
+                    <div class="totalOrder">
+                        <h3>Order total</h3>
+                        <p class="totalPrice"></P>
+                    </div>
+                    <div class="carbon-neutral"><img src="/assets/images/icon-carbon-neutral.svg" alt="carbon-neutral image"> This is Carbon-neutral delivery</div>
+                    <button id="confirm-order">Confirm order</button>
+                </div>
+        </nav>
+        <nav class="cofirmation-message">
+            <i><img src="./assets/images/icon-order-confirmed.svg" alt="Confirm order"></i>
+            <h2>Order Confirmed</h2>
+            <p>We hope you enjoy your food</p>
+        </nav>
+        <div class="reorder">
+            <p>Do you want to start a new order?</p>
+            <button id="confrim-start-new-order">Confirm</button>
+            <button id="cancel">Cancel</button>
+        </div>
+        <div id="overlay"></div>
+    </div>
+    <script src="main.js" async></script>
+</body>
+</html>
