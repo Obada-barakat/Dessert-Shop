@@ -51,8 +51,6 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 What I really want to focus more on now, is forsure JavaScript.
 The way that I've seen it manipulating the page fascinated me,
 so now I am even more eager to descover more and more concepts and features.
